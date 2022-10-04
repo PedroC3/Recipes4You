@@ -168,7 +168,7 @@ function RecipeDetails() {
       </div>
       <div className="top-header">
         <h3 className="recipe-category" data-testid="recipe-category">
-          { recipeDetails.strCategory }
+          { recipeDetails.strCategory } <br />
           { !isMeal && recipeDetails.strAlcoholic }
         </h3>
         <div className="btn-container">
