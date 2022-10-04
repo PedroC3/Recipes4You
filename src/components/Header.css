@@ -1,0 +1,46 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header-top {
+  align-items: center;
+  background-color: #008d8e;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 360px;
+}
+
+.search-icon {
+  margin-right: 20px;
+}
+
+.profile-top-btn {
+  margin-right: 15px;
+}
+
+.logo-img {
+  width: 70px;
+  margin-left: 15px;
+}
+
+.page-title {
+  color: #008d8e;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.title-container img {
+  height: 40px;
+}

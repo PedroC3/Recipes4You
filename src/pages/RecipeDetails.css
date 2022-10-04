@@ -1,0 +1,111 @@
+.recipes-details-container {
+  /* background-image: url('../images/background.png'); */
+  /* background-color: #fad4b5; */
+  height: 640px;
+  width: 360px;
+  position: fixed;
+  overflow: auto;
+}
+
+.ingredients-container {
+  border: 1px solid #FB7C2B;
+  border-radius: 3px;
+  padding: 10px;
+  /* background-color: white; */
+  /* box-shadow: 0.2em 0.2em 0.2em black; */
+}
+
+.instructions-container {
+  border: 1px solid #FB7C2B;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: justify;
+  
+}
+
+.recipe-img {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.instructions {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.video {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  color: #008d8e;
+}
+
+.video-title {
+  margin-left: 3%;
+  color: #008d8e;
+}
+
+.recomendations-container {
+  margin-bottom: 45px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.card-recomendation {
+  display: inline-block;
+  margin: 5px;
+}
+
+.start-recipe-btn {
+  background-color: #FB7C2B;
+  border: none;
+  border-radius: 7px;
+  bottom: 0;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+  height: 40px;
+  position: fixed;
+  width: 360px;
+}
+
+.top-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.recipe-title {
+  color: white;
+  position: absolute;
+}
+
+.recipe-category {
+  margin-left: 10px;
+  color: #FB7C2B;
+  text-shadow: 1px 2px gray;
+}
+
+.fav-btn {
+  margin-left: 15px;
+  margin-right: 10px;
+}
