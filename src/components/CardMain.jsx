@@ -19,14 +19,16 @@ function CardMain({ index, img, title, isRecommendation }) {
         />
       </div>
       <div className="name-container">
-        <span
-          className="card-name"
-          data-testid={ isRecommendation
-            ? `${index}-recommendation-title`
-            : `${index}-card-name` }
-        >
-          {title}
-        </span>
+        <div className="name-limiter">
+          <span
+            className="card-name"
+            data-testid={ isRecommendation
+              ? `${index}-recommendation-title`
+              : `${index}-card-name` }
+          >
+            {title}
+          </span>
+        </div>
       </div>
     </div>
   );

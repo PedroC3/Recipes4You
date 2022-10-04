@@ -115,6 +115,7 @@ function Recipes() {
             type="image"
             src={ isMeal ? mealsImg[index] : drinksImg[index] }
             alt="category-img"
+            data-category={ strCategory }
             onClick={ handleCategoryButtonClick }
           />
           <span
@@ -126,7 +127,6 @@ function Recipes() {
 
     return (
       <div className="category-container">
-        { categoryFilterButtons }
         <div className="category">
           <input
             data-testid="All-category-filter"
@@ -137,6 +137,7 @@ function Recipes() {
           />
           <span className="category-name">All</span>
         </div>
+        { categoryFilterButtons }
       </div>
     );
   };

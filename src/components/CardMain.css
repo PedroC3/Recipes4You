@@ -30,9 +30,23 @@
   align-items: center;
   bottom: 0%;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-content: center;
   margin-top: 5px;
   width: 100%;
+}
+
+.name-limiter {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+  height: 100%;
+  text-align: center;
 }
 
 .card-name {
